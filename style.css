@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 10px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    align-items: end;
+    bottom: 0px;
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+
+body {
+    background-color: aquamarine;
+    font-family: "Inter";
+}
+
+#search {
+    margin: 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search input {
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+    font-family: "inter";
+    margin: 10px;
+}
+
+#search button {
+    width: 80px;
+    height: 35px;
+    background-color: white;
+    font-family: "Inter";
+    border: 0;
+    border-radius: 5px;
+}
+
+#search button:hover {
+    background-color:rgb(63, 173, 173);
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+#resultado {
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+#container {
+    justify-content: center;
+}
+
+.card-container {
+    background-color: rgba(7, 220, 185, 0.74);
+    margin: 20px auto;
+    width: 1000px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.card-container h2 {
+    padding: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
